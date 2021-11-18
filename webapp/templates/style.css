@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Libre+Baskerville');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: white;
+}
+
+.content-setting {
+    width: auto;
+    height: 10%;
+}
+
+.content {
+    width: 75%;
+    height: auto;
+    margin: 0px, 5%, 0px, 0px
+}
+
+.text {
+    width: 100%;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 15px;
+    color: aqua;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+    height: 150px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Application</title>
+    <link href='style.css' rel='stylesheet' type='text/css' />
+    <link href='dropdownstyle.css' rel='stylesheet' type='text/css' />
+    <link href='btnAnim.css' rel='stylesheet' type='text/css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="testContainer"></div>
+    <div class='application'>
+        <div class='setting-container'>
+            <div class="font-combobox">
+                <select id='font-selected' onChange='SetFont()'>
+                <option selected class='default'>Выбрать размер</option>
+                <option id='font-timesNewRoman'>Times New Roman</option>
+                <option id='font-courierNew'>Courier New</option>
+                <option id='font-segoeUI'>Segoe UI</option>
+                <option id='font-LucidaSans'>Franklin Gothic Medium</option>
+            </select>
+            </div>
+            <div class='size-combobox'>
+                <select id='size-selected' onChange='SetSize()'>
+                <option selected class='default'>Выбрать размер</option>
+                <option id='size-1'>8px</option>
+                <option id='size-2'>9px</option>
+                <option id='size-3'>10px</option>
+                <option id='size-4'>12px</option>
+                <option id='size-5'>14px</option>
+                <option id='size-6'>18px</option>
+                <option id='size-7'>24px</option>
+                <option id='size-8'>36px</option>
+            </select>
+            </div>
+        </div>
+        <div class='text-container'>
+            <textarea class='text' id='textedit' placeholder='Enter your text'></textarea>
+        </div>
+        <div class='button-load'>
+            <button class="btnLoaded" id='btnload' onClick='btn_click()' download>Скачать</button>
+        </div>
+    </div>
+    <script type="text/javascript" src='app.js'></script>
+    <script type="text/javascript" src="font-work.js"></script>
+    <script type="text/javascript" src="size-work.js"></script>
+</body>
+
+</html>
